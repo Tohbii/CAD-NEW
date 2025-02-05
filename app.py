@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load the Framingham dataset
-df = pd.read_csv("C:\\Users\\bodeg\\Desktop\\Tobi project\\app.py\\framingham.csv")  # Ensure the correct file path
+df = pd.read_csv("framingham.csv")  # Ensure the correct file path
 
 # Drop missing values
 df.dropna(inplace=True)
